@@ -6,17 +6,726 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1195</width>
+    <height>860</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Gamma Studio</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <property name="windowIcon">
+   <iconset resource="iconos.qrc">
+    <normaloff>:/new/prefix1/iconos/matriz.png</normaloff>:/new/prefix1/iconos/matriz.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="base">
+      <widget class="QWidget" name="page">
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QGroupBox" name="groupBox">
+              <property name="title">
+               <string>Modificadores</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout">
+               <item>
+                <widget class="QPushButton" name="pushButton_2">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="iconos.qrc">
+                   <normaloff>:/new/prefix1/iconos/amarillo.png</normaloff>:/new/prefix1/iconos/amarillo.png</iconset>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_4">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="iconos.qrc">
+                   <normaloff>:/new/prefix1/iconos/rojo.png</normaloff>:/new/prefix1/iconos/rojo.png</iconset>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_4">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_5">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="iconos.qrc">
+                   <normaloff>:/new/prefix1/iconos/verde.png</normaloff>:/new/prefix1/iconos/verde.png</iconset>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_5">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_6">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="iconos.qrc">
+                   <normaloff>:/new/prefix1/iconos/naranja.png</normaloff>:/new/prefix1/iconos/naranja.png</iconset>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_7">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="iconos.qrc">
+                   <normaloff>:/new/prefix1/iconos/cafe.png</normaloff>:/new/prefix1/iconos/cafe.png</iconset>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="Line" name="line_6">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_8">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="iconos.qrc">
+                   <normaloff>:/new/prefix1/iconos/azul.png</normaloff>:/new/prefix1/iconos/azul.png</iconset>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_9">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="iconos.qrc">
+                   <normaloff>:/new/prefix1/iconos/morado.png</normaloff>:/new/prefix1/iconos/morado.png</iconset>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_10">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="iconos.qrc">
+                   <normaloff>:/new/prefix1/iconos/rosa.png</normaloff>:/new/prefix1/iconos/rosa.png</iconset>
+                 </property>
+                 <property name="flat">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_2">
+              <property name="title">
+               <string>Limites</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_3">
+               <item row="0" column="0">
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <item>
+                  <widget class="QLabel" name="label_2">
+                   <property name="text">
+                    <string>Ingerior</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QSpinBox" name="spinBox"/>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_4">
+                   <property name="text">
+                    <string>AUX</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QDoubleSpinBox" name="doubleSpinBox"/>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_3">
+                   <property name="text">
+                    <string>Superior</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QSpinBox" name="spinBox_2"/>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QGroupBox" name="groupBox_3">
+              <property name="title">
+               <string>Dimenciones</string>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_4">
+               <item row="0" column="0">
+                <layout class="QHBoxLayout" name="horizontalLayout_3">
+                 <item>
+                  <widget class="QLabel" name="label_5">
+                   <property name="text">
+                    <string>Filas</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QDoubleSpinBox" name="doubleSpinBox_2"/>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_6">
+                   <property name="text">
+                    <string>Columnas</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QDoubleSpinBox" name="doubleSpinBox_3"/>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="font">
+               <font>
+                <family>Arial</family>
+                <pointsize>28</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="iconos.qrc">
+                <normaloff>:/new/prefix1/iconos/editar.png</normaloff>:/new/prefix1/iconos/editar.png</iconset>
+              </property>
+              <property name="flat">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QTabWidget" name="baseMatrices"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1195</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivos">
+    <property name="title">
+     <string>Archivos</string>
+    </property>
+    <addaction name="actionNuevo_Proyecto"/>
+    <addaction name="actionAbrir_Proyecto"/>
+    <addaction name="actionGuardar"/>
+   </widget>
+   <widget class="QMenu" name="menuVer">
+    <property name="title">
+     <string>Ver</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuFunciones">
+    <property name="title">
+     <string>Funciones</string>
+    </property>
+    <addaction name="actionEntre_Matrices"/>
+    <addaction name="actionEntre_Escalar"/>
+    <addaction name="actionResolver"/>
+    <addaction name="actionTrigonometria"/>
+    <addaction name="separator"/>
+    <addaction name="actionEstadistica"/>
+    <addaction name="separator"/>
+    <addaction name="actionInterpolacion"/>
+    <addaction name="actionExtrapolacion"/>
+    <addaction name="separator"/>
+    <addaction name="actionGraficar"/>
+    <addaction name="separator"/>
+    <addaction name="actionExtras"/>
+    <addaction name="separator"/>
+    <addaction name="actionMatriz_Global"/>
+    <addaction name="separator"/>
+    <addaction name="actionLatex"/>
+    <addaction name="separator"/>
+    <addaction name="actionVariables"/>
+    <addaction name="actionFunciones"/>
+    <addaction name="actionMatrices"/>
+   </widget>
+   <widget class="QMenu" name="menuMatrices">
+    <property name="title">
+     <string>Matrices</string>
+    </property>
+    <addaction name="actionAgregar"/>
+    <addaction name="actionEliminar"/>
+   </widget>
+   <widget class="QMenu" name="menuEstilo">
+    <property name="title">
+     <string>Estilo</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSobre">
+    <property name="title">
+     <string>Sobre</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuConfiguraciones">
+    <property name="title">
+     <string>Configuraciones</string>
+    </property>
+   </widget>
+   <addaction name="menuArchivos"/>
+   <addaction name="menuVer"/>
+   <addaction name="menuFunciones"/>
+   <addaction name="menuMatrices"/>
+   <addaction name="menuEstilo"/>
+   <addaction name="menuSobre"/>
+   <addaction name="menuConfiguraciones"/>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNuevo_Proyecto"/>
+   <addaction name="actionAbrir_Proyecto"/>
+   <addaction name="separator"/>
+   <addaction name="actionGuardar"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QDockWidget" name="arbol">
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QTreeWidget" name="treeWidget">
+       <property name="showDropIndicator" stdset="0">
+        <bool>false</bool>
+       </property>
+       <property name="rootIsDecorated">
+        <bool>true</bool>
+       </property>
+       <property name="itemsExpandable">
+        <bool>true</bool>
+       </property>
+       <property name="expandsOnDoubleClick">
+        <bool>true</bool>
+       </property>
+       <attribute name="headerVisible">
+        <bool>false</bool>
+       </attribute>
+       <column>
+        <property name="text">
+         <string>New Column</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="funciones">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionAgregar"/>
+   <addaction name="actionEliminar"/>
+   <addaction name="separator"/>
+   <addaction name="actionEntre_Matrices"/>
+   <addaction name="actionEntre_Escalar"/>
+   <addaction name="actionMatriz_Global"/>
+   <addaction name="separator"/>
+   <addaction name="actionResolver"/>
+   <addaction name="separator"/>
+   <addaction name="actionVariables"/>
+   <addaction name="actionFunciones"/>
+   <addaction name="actionMatrices"/>
+   <addaction name="separator"/>
+   <addaction name="actionTrigonometria"/>
+   <addaction name="separator"/>
+   <addaction name="actionEstadistica"/>
+   <addaction name="separator"/>
+   <addaction name="actionInterpolacion"/>
+   <addaction name="actionExtrapolacion"/>
+   <addaction name="separator"/>
+   <addaction name="actionGraficar"/>
+   <addaction name="separator"/>
+   <addaction name="actionExtras"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="actionLatex"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionNuevo_Proyecto">
+   <property name="icon">
+    <iconset theme="accessories-calculator" resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/agregar-carpeta.png</normaloff>:/new/prefix1/iconos/agregar-carpeta.png</iconset>
+   </property>
+   <property name="text">
+    <string>Nuevo Proyecto</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionAbrir_Proyecto">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/abriProyecto.png</normaloff>:/new/prefix1/iconos/abriProyecto.png</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir Proyecto</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionGuardar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/guardar-el-archivo.png</normaloff>:/new/prefix1/iconos/guardar-el-archivo.png</iconset>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionEntre_Matrices">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/matriz3.png</normaloff>:/new/prefix1/iconos/matriz3.png</iconset>
+   </property>
+   <property name="text">
+    <string>Entre Matrices</string>
+   </property>
+   <property name="toolTip">
+    <string>Operaciones Entre Matrices</string>
+   </property>
+  </action>
+  <action name="actionEntre_Escalar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/x.png</normaloff>:/new/prefix1/iconos/x.png</iconset>
+   </property>
+   <property name="text">
+    <string>Entre Escalar</string>
+   </property>
+   <property name="toolTip">
+    <string>Operaciones Matrices-Escalar</string>
+   </property>
+  </action>
+  <action name="actionResolver">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/resolver.png</normaloff>:/new/prefix1/iconos/resolver.png</iconset>
+   </property>
+   <property name="text">
+    <string>Resolver</string>
+   </property>
+   <property name="toolTip">
+    <string>Resolver Matriz</string>
+   </property>
+  </action>
+  <action name="actionTrigonometria">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/trigonometria.png</normaloff>:/new/prefix1/iconos/trigonometria.png</iconset>
+   </property>
+   <property name="text">
+    <string>Trigonometria</string>
+   </property>
+   <property name="toolTip">
+    <string>Funciones Trigonometricas</string>
+   </property>
+  </action>
+  <action name="actionEstadistica">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/probabilidad.png</normaloff>:/new/prefix1/iconos/probabilidad.png</iconset>
+   </property>
+   <property name="text">
+    <string>Estadistica</string>
+   </property>
+  </action>
+  <action name="actionInterpolacion">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/interpolar.png</normaloff>:/new/prefix1/iconos/interpolar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Interpolacion</string>
+   </property>
+  </action>
+  <action name="actionExtrapolacion">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/extrapolar.png</normaloff>:/new/prefix1/iconos/extrapolar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Extrapolacion</string>
+   </property>
+  </action>
+  <action name="actionGraficar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/graficar.png</normaloff>:/new/prefix1/iconos/graficar.png</iconset>
+   </property>
+   <property name="text">
+    <string>Graficar</string>
+   </property>
+  </action>
+  <action name="actionExtras">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/extra.png</normaloff>:/new/prefix1/iconos/extra.png</iconset>
+   </property>
+   <property name="text">
+    <string>Extras</string>
+   </property>
+  </action>
+  <action name="actionMatriz_Global">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/intersect.png</normaloff>:/new/prefix1/iconos/intersect.png</iconset>
+   </property>
+   <property name="text">
+    <string>Matriz Global</string>
+   </property>
+  </action>
+  <action name="actionLatex">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/OIP.jpg</normaloff>:/new/prefix1/iconos/OIP.jpg</iconset>
+   </property>
+   <property name="text">
+    <string>Latex</string>
+   </property>
+  </action>
+  <action name="actionVariables">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/variable.png</normaloff>:/new/prefix1/iconos/variable.png</iconset>
+   </property>
+   <property name="text">
+    <string>Variables</string>
+   </property>
+  </action>
+  <action name="actionFunciones">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/funcion.png</normaloff>:/new/prefix1/iconos/funcion.png</iconset>
+   </property>
+   <property name="text">
+    <string>Funciones</string>
+   </property>
+  </action>
+  <action name="actionMatrices">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/vMatrices.png</normaloff>:/new/prefix1/iconos/vMatrices.png</iconset>
+   </property>
+   <property name="text">
+    <string>Matrices</string>
+   </property>
+  </action>
+  <action name="actionAgregar">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/anadir.png</normaloff>:/new/prefix1/iconos/anadir.png</iconset>
+   </property>
+   <property name="text">
+    <string>Agregar</string>
+   </property>
+  </action>
+  <action name="actionEliminar">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/new/prefix1/iconos/cerrarMatriz.png</normaloff>:/new/prefix1/iconos/cerrarMatriz.png</iconset>
+   </property>
+   <property name="text">
+    <string>Eliminar</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="iconos.qrc"/>
+ </resources>
  <connections/>
 </ui>
