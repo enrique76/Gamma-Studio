@@ -45,8 +45,6 @@
         <file>iconos/matematicas.png</file>
         <file>iconos/matriz.png</file>
         <file>iconos/matriz2.png</file>
-        <file>iconos/matriz3.png</file>
-        <file>iconos/matriz4.png</file>
         <file>iconos/matrizdecamino.png</file>
         <file>iconos/menos.png</file>
         <file>iconos/morado.png</file>
@@ -57,7 +55,6 @@
         <file>iconos/paleta.png</file>
         <file>iconos/pdf.png</file>
         <file>iconos/pegar.png</file>
-        <file>iconos/Pieza Engrane.SLDPRT</file>
         <file>iconos/probabilidad.png</file>
         <file>iconos/qt.jpg</file>
         <file>iconos/reciclar.png</file>
@@ -71,7 +68,6 @@
         <file>iconos/salvar.png</file>
         <file>iconos/terminal.png</file>
         <file>iconos/tipografia.png</file>
-        <file>iconos/TP02-Enunciado-1C-2022.pdf</file>
         <file>iconos/trigonometria.png</file>
         <file>iconos/una.png</file>
         <file>iconos/variable.png</file>
@@ -80,5 +76,14 @@
         <file>iconos/vMatrices.png</file>
         <file>iconos/x.png</file>
         <file>iconos/youtube.png</file>
+        <file>iconos/matriz3.png</file>
+        <file>iconos/galeria-de-fotos.png</file>
+        <file>iconos/wrench.png</file>
+        <file>iconos/UnidadesMedida.png</file>
+        <file>iconos/flecha-hacia-arriba.png</file>
+        <file>iconos/imagenes.png</file>
+        <file>iconos/texas.png</file>
+        <file>iconos/barra-grafica.png</file>
+        <file>iconos/dotted-line.png</file>
     </qresource>
 </RCC>
